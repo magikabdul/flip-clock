@@ -1,0 +1,46 @@
+@import "_normalize";
+@import "_variables";
+
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap&subset=latin-ext");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $yellow;
+  background: $violet;
+}
+
+.container {
+  max-width: 460px;
+  // height: 116px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.flip-clock-wrapper {
+  margin: 0;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: $yellow;
+}
